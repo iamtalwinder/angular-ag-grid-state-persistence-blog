@@ -8,6 +8,7 @@
   [pagination]="true"
 
   (gridReady)="onGridReady($event)"
+  (firstDataRendered)="onFirstDataRendered()"
 
   (filterChanged)="onFilterChanged()"
   (sortChanged)="onSaveGridColumnState()"
